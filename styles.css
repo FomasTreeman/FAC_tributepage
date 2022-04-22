@@ -1,0 +1,39 @@
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    background-color: rgb(255, 230, 0);
+    color: purple;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    margin: 2rem;
+    padding: 1rem;
+    border-width: 5px;
+    border-style: dashed;
+    border-radius: 50%;
+    border-color: rgb(255, 81, 0);
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+a :hover {
+    color: red;
+}
