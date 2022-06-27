@@ -1,19 +1,27 @@
-body {
+body, html {
     background-color: cornflowerblue;
+    height: 100%;
+    margin: 0px;
 }
 
 header {
     background-color: rgb(255, 230, 0);
-    color: purple;
+    color: white;
     text-align: center;
     font-style: italic;
-    font-size: x-large;
+    font-size: x-large;                                             
     margin: 2rem;
     padding: 1rem;
     border-width: 5px;
     border-style: dashed;
-    border-radius: 50%;
+    border-radius: 40% 10%; 
     border-color: rgb(255, 81, 0);
+    margin-top: 0px;
+}                   
+
+div {
+    text-align: start;
+    padding-left: 2rem;
 }
 
 li {
@@ -36,4 +44,15 @@ a {
 
 a :hover {
     color: red;
+}
+
+img {
+    max-height: 300px;
+}
+
+p {
+    position: absolute;
+    left: 47%;
+    bottom: 25px;
+
 }
